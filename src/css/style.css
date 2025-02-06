@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #242424;
+}
+
+.botao-arcade {
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 15vh;
+    padding: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #34C759; /* Verde */
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0px 5px 0px #2E865F, 0px 10px 10px rgba(0,0,0,0.2); /* Sombra para efeito 3D */
+    transition: all 0.2s ease;
+}
+
+.botao-arcade:active {
+    transform: translateY(5px);
+    box-shadow: 0px 0px 0px #2E865F, 0px 5px 10px rgba(0,0,0,0.2); /* Ajusta a sombra ao clicar */
+}
+
+.botao-arcade:focus {
+    outline: none;
+}
+
+.btn{
+    padding: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+.toques {
+    margin-top: 20%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between 20px;
+
+}
+
+.cronometro {
+    color: #fff;
+    font-size: 80px;
+
+}
+
