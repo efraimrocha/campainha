@@ -11,7 +11,7 @@
         setTimeout(() => {
           audio.currentTime = 0; // Reinicia o áudio para o início
           audio.play();
-        }, i * 1000); // Intervalo de 1 segundo (1000 ms)
+        }, i * 2000); // Intervalo de 2 segundo (2000 ms)
       }
     }
   
