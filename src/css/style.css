@@ -56,4 +56,22 @@ h1 {
     font-size: 80px;
 
 }
+.cinza-inativo {
+    background-color: #ccc; /* Cor cinza */
+    opacity: 0.7; /* Opacidade reduzida para parecer inativo */
+    cursor: not-allowed; /* Cursor indicando que o botão está inativo */
+}
 
+
+#reset-toques {
+    background-color: #ff4444; /* Cor vermelha para destacar */
+    color: white; /* Texto branco */
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px; /* Espaçamento acima do botão */
+    cursor: pointer;
+}
+
+#reset-toques:hover {
+    background-color: #cc0000; /* Cor vermelha mais escura ao passar o mouse */
+}
