@@ -12,29 +12,34 @@
   <link rel="stylesheet" href="src/css/style.css">
 
 </head>
+
 <body>
   <div class="container text-center"></div>
     <div class="row align-items-center">
+
+
       <!-- Coluna 2 ------------------------------------------------------------------->
       <div class="col">
-        <h1>COL 1</h1>
+        <h1>Toques</h1>
         <div class="container toques">
-          <button id="primeiro-toque" class="botao-arcade" onclick="primeiroToque()">Primeiro toque</button>
-          <button id="segundo-toque" class="botao-arcade" onclick="segundoToque()">Segundo toque</button>
-          <button id="terceiro-toque" class="botao-arcade" onclick="terceiroToque()">Terceiro toque</button>
-
+          <button id="primeiro-toque" class="botao-arcade">Primeiro toque</button><br>
+          <button id="segundo-toque" class="botao-arcade">Segundo toque</button><br>
+          <button id="terceiro-toque" class="botao-arcade">Terceiro toque</button><br>
         </div>
       </div>
+
       <!-- Coluna 2 ------------------------------------------------------------------->
       <div class="col">
-        <h1>COL 2</h1>
+        <h1>Toque manual</h1>
         <div class="container">
           <div class="container btn">
             <button id="campinha" class="botao-arcade"><img src="src/img/campainha-tocando.png" alt=""></button>
           </div>
         </div>
       </div>
-      <!-- oluna 3  ------------------------------------------------------------------>
+
+
+      <!-- coluna 3  ------------------------------------------------------------------>
       <div class="col">
         <h1>Cronômetro</h1>
 
@@ -43,9 +48,7 @@
             <div class="cronometro">
               <span id="hour">00</span>:<span id="minute">00</span>:<span id="second">00</span>:<span id="millisecond">000</span>
             </div>
-          
-            <br />
-          
+            <br/>
             <button class="botao-arcade" type="button" name="start">start</button>
             <button class="botao-arcade" type="button" name="pause">pause</button>
             <button class="botao-arcade" type="button" name="reset">reset</button>
@@ -54,9 +57,10 @@
       </div>
   </div>
 
-
-
+  <!-- Importa os apps JS -->
   <script src="src/js/App.js"></script>
+  <script src="src/js/Cronometro.js"></script>
+  <script src="src/js/Toques.js"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
