@@ -99,7 +99,7 @@ Este projeto está em constante evolução, e novas funcionalidades estão sendo
 
 ## Licença
 
-Este projeto é licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto é licenciado sob a licença MIT.
 
 ---
 
