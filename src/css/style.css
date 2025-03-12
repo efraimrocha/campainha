@@ -94,6 +94,8 @@ h1 {
     border: none;
     padding: 10px 20px;
     cursor: pointer;
+    box-shadow: 0px 5px 0px #424242, 0px 10px 10px rgba(0,0,0,0.2); /* Sombra para efeito 3D */
+
   }
   
   #reset-toques:hover {
