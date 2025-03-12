@@ -1,6 +1,3 @@
-Aqui está um exemplo de `README.md` para o seu repositório, descrevendo o projeto, sua origem, funcionalidades e como utilizá-lo. Sinta-se à vontade para ajustar conforme necessário.
-
----
 
 # Projeto Campainha
 
