@@ -75,3 +75,27 @@ h1 {
 #reset-toques:hover {
     background-color: #cc0000; /* Cor vermelha mais escura ao passar o mouse */
 }
+
+/* Estilo personalizado para as bordas dos containers */
+.border {
+    border: 2px solid #ccc !important; /* Borda mais espessa e cor personalizada */
+    border-radius: 10px; /* Bordas arredondadas */
+  }
+  
+  /* Espaçamento adicional entre os botões */
+  .botao-arcade {
+    margin-bottom: 1rem; /* Espaçamento padrão entre botões */
+  }
+  
+  /* Estilo para o botão de reset */
+  #reset-toques {
+    background-color: #ff4444; /* Cor de fundo vermelha */
+    color: white; /* Texto branco */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  #reset-toques:hover {
+    background-color: #cc0000; /* Cor mais escura ao passar o mouse */
+  }

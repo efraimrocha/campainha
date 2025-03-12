@@ -11,12 +11,13 @@ function playAudioMultipleTimes(times) {
     setTimeout(() => {
       audio.currentTime = 0; // Reinicia o áudio para o início
       audio.play();
-    }, i * 2000); // Intervalo de 1 segundo (1000 ms)
+    }, i * 2000); // Intervalo de 2 segundos (2000 ms)
   }
 }
 
 // Função para mudar a cor do botão para "cinza-inativo"
 function desativarBotao(botao) {
+  console.log('Botão de reset foi clicado');
   botao.classList.add('cinza-inativo'); // Adiciona a classe cinza-inativo
   botao.disabled = true; // Desabilita o botão para evitar múltiplos cliques
 }

@@ -1,59 +1,50 @@
-
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Campinha</title>
-  
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
-
   <link rel="stylesheet" href="src/css/style.css">
-
 </head>
 
 <body>
-  <div class="container text-center"></div>
+  <div class="container text-center">
     <div class="row align-items-center">
-
-
-      <!-- Coluna 2 ------------------------------------------------------------------->
-      <div class="container toques">
-        <button id="primeiro-toque" class="botao-arcade">Primeiro toque <br><img src="src/img/campainha-tocando.png" alt=""></button>
-        <button id="segundo-toque" class="botao-arcade">Segundo toque <br><img src="src/img/campainha-tocando.png" alt=""></button>
-        <button id="terceiro-toque" class="botao-arcade">Terceiro toque <br><img src="src/img/campainha-tocando.png" alt=""></button>
-        <!-- Botão de reset -->
-        <button id="reset-toques" class="botao-arcade">Resetar Toques</button>
+      <!-- Coluna 1 - Toques -->
+      <div class="col border p-3">
+        <h1>Toques</h1>
+        <div class="toques">
+          <button id="primeiro-toque" class="botao-arcade mb-3">Primeiro toque <br><img src="src/img/campainha-tocando.png" alt=""></button>
+          <button id="segundo-toque" class="botao-arcade mb-3">Segundo toque <br><img src="src/img/campainha-tocando.png" alt=""></button>
+          <button id="terceiro-toque" class="botao-arcade mb-3">Terceiro toque <br><img src="src/img/campainha-tocando.png" alt=""></button>
+          <!-- Botão de reset -->
+          <button id="reset-toques" class="botao-arcade">Resetar Toques</button>
+        </div>
       </div>
 
-      <!-- Coluna 2 ------------------------------------------------------------------->
-      <div class="col">
+      <!-- Coluna 2 - Toque manual -->
+      <div class="col border p-3">
         <h1>Toque manual</h1>
-        <div class="container">
-          <div class="container btn">
-            <button id="campinha" class="botao-arcade"><img src="src/img/campainha-tocando.png" alt=""></button>
-          </div>
+        <div class="btn">
+          <button id="campinha" class="botao-arcade"><img src="src/img/campainha-tocando.png" alt=""></button>
         </div>
       </div>
 
-
-      <!-- coluna 3  ------------------------------------------------------------------>
-      <div class="col">
+      <!-- Coluna 3 - Cronômetro -->
+      <div class="col border p-3">
         <h1>Cronômetro</h1>
-
-        <div>
-          <form name="form_main">
-            <div class="cronometro">
-              <span id="hour">00</span>:<span id="minute">00</span>:<span id="second">00</span>:<span id="millisecond">000</span>
-            </div>
-            <br/>
-            <button class="botao-arcade" type="button" name="start">start</button>
-            <button class="botao-arcade" type="button" name="pause">pause</button>
-            <button class="botao-arcade" type="button" name="reset">reset</button>
-          </form>
-        </div>
+        <form name="form_main">
+          <div class="cronometro">
+            <span id="hour">00</span>:<span id="minute">00</span>:<span id="second">00</span>:<span id="millisecond">000</span>
+          </div>
+          <br/>
+          <button class="botao-arcade mb-2" type="button" name="start">start</button>
+          <button class="botao-arcade mb-2" type="button" name="pause">pause</button>
+          <button class="botao-arcade" type="button" name="reset">reset</button>
+        </form>
       </div>
+    </div>
   </div>
 
   <!-- Importa os apps JS -->
@@ -64,4 +55,3 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
